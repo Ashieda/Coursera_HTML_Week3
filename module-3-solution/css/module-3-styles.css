@@ -8,7 +8,22 @@ body {
   #header-nav {
       background-color: darkgray;
       border-radius: 0;
+      border-color: black;
+      border-width: 3px;
       /* border: 4px black; */
+  }
+
+  .page-header{
+      border: none;
+      font-size: 40px;
+      font-weight: bold;
+  }
+
+  .jumbotron .h1, .jumbotron h1 {
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 0;
   }
 
   .navbar-brand h1{
@@ -20,4 +35,11 @@ body {
   .navbar-brand a:hover, .navbar-brand a:focus {
       text-decoration: none;
   }
+
+  .jumbotron {
+      margin-left: 5%;
+      margin-right: 5%;
+      height: 1000px;
+  }
+
 
